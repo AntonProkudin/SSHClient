@@ -1,0 +1,38 @@
+.card{
+  width: 75%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6FCF97;
+  border-radius: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-family: 'Unbounded', sans-serif;
+  p{}
+  .name-block{
+    color: #FFFFFF;
+    width: 20%;
+
+    p{
+      font-weight: 600;
+      font-family: 'Unbounded', sans-serif;
+    }
+
+  }
+  .state-block{
+    width: 20%;
+  }
+  .startBtn {
+    width: 20%;
+  }
+
+  .delete{
+
+  }
+
+  &.notStart{
+      background-color: #36454F;
+  }
+
+}

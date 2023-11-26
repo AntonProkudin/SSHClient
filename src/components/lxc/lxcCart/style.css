@@ -1,0 +1,31 @@
+.lxcc {
+  width: 75%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6FCF97;
+  border-radius: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-family: "Unbounded", sans-serif;
+}
+.lxcc .name-block {
+  color: #FFFFFF;
+  width: 20%;
+}
+.lxcc .name-block p {
+  font-weight: 600;
+  font-family: "Unbounded", sans-serif;
+}
+.lxcc .state-block {
+  width: 20%;
+}
+.lxcc .startBtn {
+  width: 20%;
+}
+.lxcc.notStart {
+  background-color: #36454F;
+}
+
+/*# sourceMappingURL=style.css.map */

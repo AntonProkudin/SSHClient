@@ -1,0 +1,63 @@
+header {
+  position: fixed;
+  height: 100vh;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header .profile {
+  margin-top: 80px;
+}
+header .profile .pic-block {
+  text-align: center;
+}
+header .profile .name-block {
+  text-align: center;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  border-bottom: 1px solid #FFFFFF;
+}
+header .profile .menu-items {
+  margin-top: 39px;
+}
+header .profile .menu-items .menu {
+  list-style: none;
+  padding-left: 0;
+}
+header .profile .menu-items .menu .navlink {
+  margin-bottom: 20px;
+}
+header .profile .menu-items .menu .navlink .link {
+  width: 100%;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 64px;
+  background: #6FCF97;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  justify-content: left;
+  text-decoration: none;
+  padding: 10px;
+}
+header .profile .menu-items .menu .navlink .link p {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  margin-right: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
